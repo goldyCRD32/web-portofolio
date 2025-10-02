@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Digital - Farhan Zuhairi Harahap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Opsional: Tambahkan favicon untuk identitas situs -->
+    <!-- <link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
+    <!-- Atau jika menggunakan PNG -->
+    <!-- <link rel="icon" href="/favicon.png" type="image/png"> -->
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Web Portfolio</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#achievements">Prestasi</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menuToggle" role="button" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Halo, saya <span class="text-primary">Farhan Zuhairi Harahap</span></h1>
+                <p>Seorang Web Developer pemula jika ada saran bisa di beritahu dari kontak saya.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Opsional: Gunakan elemen picture untuk optimasi gambar jika ada versi webp -->
+                <!-- <picture>
+                    <source srcset="/profile.webp" type="image/webp">
+                    <img src="/profile.jpg" alt="Professional portrait of a web developer smiling confidently in a modern office setting" loading="lazy">
+                </picture> -->
+                <img src="/profile.jpg" alt="Professional portrait of a web developer smiling confidently in a modern office setting">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>Saya adalah seorang mahasiswa baru di Universitas Medan saya dulu bersekolah SMA di MAN ASAHAN</p>
+                    <p>Saya bersemangat untuk belajar teknologi baru dan menciptakan solusi yang inovatif untuk masalah.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item fade-in">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML/CSS</h3>
+                        <p>Membangun struktur dan desain website yang responsif</p>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Mengembangkan interaksi dan fungsionalitas website</p>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <i class="fab fa-react"></i>
+                        <h3>React.js</h3>
+                        <p>Membangun aplikasi web modern dengan React</p>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Desain yang optimal untuk semua perangkat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Proyek Saya</h2>
+            <div class="coming-soon-message fade-in">
+                <i class="fas fa-hourglass-half"></i>
+                <p>Bagian proyek sedang dalam pencarian. Tunggu proyeknya</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title">Prestasi</h2>
+            <div class="no-achievements-message fade-in">
+                <i class="fas fa-trophy"></i>
+                <p>Belum ada prestasi yang ditambahkan. Sedang di cari ke depannya</p>
+            </div>
+            <!-- Jika nanti ada prestasi, bisa ditambahkan di sini, contoh: -->
+            <!--
+            <div class="achievements-grid">
+                <div class="achievement-item fade-in">
+                    <h3>Juara 1 Lomba Web Design</h3>
+                    <p>Kompetisi tingkat universitas, 2023</p>
+                </div>
+                <div class="achievement-item fade-in">
+                    <h3>Sertifikasi JavaScript Lanjutan</h3>
+                    <p>Coursera, 2024</p>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item fade-in">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>palmiaterbang3308@gmail.com</p>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telepon</h3>
+                        <p>+62 895 2939 6648</p>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Lokasi</h3>
+                        <p>Medan, Indonesia</p>
+                    </div>
+                </div>
+                <form class="contact-form fade-in" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Portfolio</div>
+                <div class="footer-links">
+                    <a href="#" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/far_hannnh?igsh=MXN1NzZtbzNnenFzaw==" target="_blank" aria-label="Instagram Profile"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 farhan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
